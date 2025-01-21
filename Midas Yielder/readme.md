@@ -6,26 +6,14 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 
 ## Table of Contents
 
-1. [Prerequisites](#prerequisites)
-2. [Installation Steps](#installation-steps)
-3. [Configuration Files](#configuration-files)
+1. [Installation Steps](#installation-steps)
+2. [Configuration Files](#configuration-files)
    - [`configs.json`](#1-configsjson)
    - [`datas.txt`](#2-datastxt)
    - [`wallets.txt`](#3-walletstxt)
    - [`proxies.txt`](#4-proxiestxt)
-4. [Running the Bot](#running-the-bot)
-5. [Contact and Support](#contact-and-support)
-
----
-
-## Prerequisites
-
-Before running the bot, make sure you have the following installed:
-
-- **Python** (Version: `3.11.9`)
-- **pip** (Version: `24.3.1`)
-
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/2627).
+3. [Running the Bot](#running-the-bot)
+4. [Contact and Support](#contact-and-support)
 
 ---
 
