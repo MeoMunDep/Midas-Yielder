@@ -7,5 +7,6 @@
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "retryOnLoginFail": 3
+  "retryOnLoginFail": 3,
+  "referralCode":"ref_618fb7aa-a884-4deb-b4fb-c462c278acfa"
 }
