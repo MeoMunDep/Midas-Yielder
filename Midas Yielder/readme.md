@@ -36,11 +36,12 @@ This file controls the bot’s behavior. Below is an example configuration:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 81],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "retryOnLoginFail": 3
+  "retryOnLoginFail": 3,
+  "referralCode":"ref_618fb7aa-a884-4deb-b4fb-c462c278acfa"
 }
 ```
 
@@ -54,6 +55,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
   - `retryOnLoginFail`: Amount of retry on login fail.
+  - `referralCode`: Your referral code.
 
 ### 2. `datas.txt` - 🗂️ User Data
 
