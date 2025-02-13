@@ -108,8 +108,57 @@ _Note: each row for each account_
 
 2. Run the bot using the following command:
 
+#### **Windows**
+
+Open Command Prompt (cmd) or PowerShell and run:
+
+```powershell
+./meomundep.exe
+```
+
+(If that doesn’t work, try `meomundep.exe` or `.\meomundep.exe`.)
+
+---
+
+#### **Linux**
+
+Since `.exe` files are designed for Windows, you need **Wine** to run them:
+
+1. **Install Wine (if not installed):**
+   - **Ubuntu/Debian:**
+     ```bash
+     sudo apt update && sudo apt install wine
+     ```
+   - **Arch Linux:**
+     ```bash
+     sudo pacman -S wine
+     ```
+   - **Fedora:**
+     ```bash
+     sudo dnf install wine
+     ```
+2. **Run the program:**
    ```bash
-   ./meomundep.exe
+   wine meomundep.exe
+   ```
+
+---
+
+#### **macOS**
+
+macOS also requires **Wine** to run `.exe` files:
+
+1. **Install Homebrew (if not installed):**
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+2. **Install Wine:**
+   ```bash
+   brew install wine
+   ```
+3. **Run the program:**
+   ```bash
+   wine meomundep.exe
    ```
 
 ---
