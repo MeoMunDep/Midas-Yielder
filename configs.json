@@ -1,5 +1,4 @@
 {
-  "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 81],
