@@ -1,6 +1,5 @@
 {
   "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
   "delayEachAccount": [1, 81],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
