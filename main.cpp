@@ -32,7 +32,7 @@ void log(LogLevel level, const std::string& message) {
 int main() {
     log(INFO, "Midas Yielder");
     log(WARNING, "The best RWA Telegram Miniapp!");
-    log(ERROR, "@Meomundep");
+    log(ERROR, "Made by @Meomundep with Milk and Love <3");
 
     return 0;
 }
