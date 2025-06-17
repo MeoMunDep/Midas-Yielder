@@ -1,0 +1,6 @@
+aiohttp
+aiohttp_proxy
+requests
+cloudscraper
+colorama
+pysocks
