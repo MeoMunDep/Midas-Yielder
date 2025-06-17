@@ -42,7 +42,7 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 
 ## Configuration Files
 
-### 1. `configs.json` - 📜 Adjust Bot Settings
+### 1. `configs.json` - Adjust Bot Settings
 
 Example:
 
@@ -60,7 +60,7 @@ Example:
 }
 ```
 
-### 2. `datas.txt` - 🗂️ User Data
+### 2. `datas.txt` - User Data
 
 > Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNee/1586).
 > Format: one entry per line like:
@@ -72,7 +72,7 @@ query_id.../user...
 
 > You can use this wallet generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
-### 3. `proxies.txt` - 🌐 Proxy List (Optional)
+### 3. `proxies.txt` - Proxy List (Optional)
 
 Supported formats per line:
 
