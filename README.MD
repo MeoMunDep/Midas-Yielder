@@ -4,47 +4,46 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
 1. [Installation Steps](#installation-steps)
 2. [Configuration Files](#configuration-files)
-   * [`configs.json`](#1-configsjson)
-   * [`datas.txt`](#2-datastxt)
-   * [`proxies.txt`](#3-proxiestxt)
 3. [Running the Bot](#running-the-bot)
 4. [Wrapper Scripts (Optional)](#wrapper-scripts-optional)
 5. [Contact and Support](#contact-and-support)
 
 ---
 
-## Installation Steps
+<details>
+<summary>🔹 Installation Steps</summary>
 
-1. **Install Node.js (v18+) or Python 3.10+**:
+1. **Install Node.js (v18+) or Python 3.10+**
 
-   * This bot runs with **Python**, make sure it's installed from [https://python.org](https://python.org/downloads/).
-   * Check version:
+   - This bot runs with **Python**, make sure it's installed from [python.org](https://python.org/downloads/).
+   - Check version:
 
      ```bash
      python --version
      ```
 
-2. **Install required dependencies**:
+2. **Install required dependencies**
    From the bot folder, run:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Prepare configuration files**:
+3. **Prepare configuration files**
    Make sure all files in the [Configuration Files](#configuration-files) section are set up properly.
+
+</details>
 
 ---
 
-## Configuration Files
+<details>
+<summary>🔹 Configuration Files</summary>
 
 ### 1. `configs.json` - Adjust Bot Settings
-
-Example:
 
 ```json
 {
@@ -54,21 +53,25 @@ Example:
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "retryOnLoginFail": 3,
+  "retryOnLoginFail": 3
 }
 ```
 
+---
+
 ### 2. `datas.txt` - User Data
 
-> Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNee/1586).
-> Format: one entry per line like:
+- Download from: [here](https://t.me/KeoAirDropFreeNee/1586)
+- Format:
 
 ```
 query_id.../user...
 query_id.../user...
 ```
 
-> You can use this wallet generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+- Wallet generator: [GitHub Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
+---
 
 ### 3. `proxies.txt` - Proxy List (Optional)
 
@@ -79,27 +82,31 @@ http://user:pass@host:port
 socks5://host:port
 ```
 
-Leave it blank if you don’t use proxies.
+Leave blank if no proxy is used.
+
+</details>
 
 ---
 
-## Running the Bot
+<details>
+<summary>🔹 Running the Bot</summary>
 
 Open a terminal in the folder where `meomundep.py` is located.
 
-### Run directly:
+Run directly:
 
 ```bash
 python meomundep.py
 ```
 
+</details>
+
 ---
 
-## Wrapper Scripts (Optional)
+<details>
+<summary>🔹 Wrapper Scripts (Optional)</summary>
 
-To simplify launching, you can use these optional wrappers:
-
-### **Windows (`run.bat`)**:
+**Windows (`run.bat`)**
 
 ```bat
 @echo off
@@ -107,26 +114,31 @@ python meomundep.py
 pause
 ```
 
-### **Linux/macOS (`run.sh`)**:
+**Linux/macOS (`run.sh`)**
 
 ```bash
 #!/bin/bash
 python3 meomundep.py
 ```
 
-> Don't forget to make it executable:
+Make executable:
 
 ```bash
 chmod +x run.sh
 ./run.sh
 ```
 
+</details>
+
 ---
 
-## Contact and Support
+<details>
+<summary>🔹 Contact and Support</summary>
 
-* **Referral Link**: [Start Here](https://t.me/MidasRWA_bot/app?startapp=ref_618fb7aa-a884-4deb-b4fb-c462c278acfa)
-* **Buy Telegram Account**: [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [GitHub](https://github.com/MeoMunDep/MeoMunDep)
-* **Contact me**: [Message Me](https://t.me/MeoMunDep)
-* **Community Group**: [Join](https://t.me/KeoAirDropFreeNe)
-* **Updates Channel**: [Follow](https://t.me/KeoAirDropFreeNee)
+- **Referral Link**: [Start Here](https://t.me/MidasRWA_bot/app?startapp=ref_618fb7aa-a884-4deb-b4fb-c462c278acfa)
+- **Buy Telegram Account**: [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [GitHub](https://github.com/MeoMunDep/MeoMunDep)
+- **Contact me**: [Message Me](https://t.me/MeoMunDep)
+- **Community Group**: [Join](https://t.me/KeoAirDropFreeNe)
+- **Updates Channel**: [Follow](https://t.me/KeoAirDropFreeNee)
+
+</details>
