@@ -48,7 +48,6 @@ Example:
 
 ```json
 {
-  "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 81],
@@ -56,7 +55,6 @@ Example:
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
   "retryOnLoginFail": 3,
-  "referralCode":"ref_618fb7aa-a884-4deb-b4fb-c462c278acfa"
 }
 ```
 
